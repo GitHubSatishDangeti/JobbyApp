@@ -1,0 +1,202 @@
+.bg {
+  background-color: black;
+  padding: 20px;
+}
+.jobItem-bg {
+  padding: 20px;
+  background-color: #272727;
+  margin: 10px;
+  border-radius: 10px;
+}
+.type-container {
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.location-container {
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+.location-type-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.react-icon-location {
+  font-size: 20px;
+  margin-right: 5px;
+}
+.react-icon-type {
+  font-size: 25px;
+  margin-right: 5px;
+}
+.rating-star {
+  color: #fbbf24;
+  margin-right: 5px;
+}
+.rating-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+}
+.similar-img-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.similar-img {
+  width: 80px;
+  margin-right: 10px;
+}
+.similar-title-img-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.heading {
+  color: white;
+}
+.para {
+  color: white;
+}
+.job-list {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.title {
+  color: white;
+}
+.skills-heading {
+  color: white;
+}
+.similar-jobs-heading {
+  color: white;
+}
+.location-type-package-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+}
+.line {
+  color: #6366f1;
+}
+.heading-link-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.skills-list {
+  list-style-type: none;
+  flex-wrap: wrap;
+  /* margin: 0px; */
+  padding: 0px;
+  display: flex;
+}
+.skills-items {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 222px;
+}
+.skill-img {
+  width: 50px;
+  margin: 20px;
+}
+.anchor-link {
+  text-decoration: none;
+  font-size: large;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #6366f1;
+}
+.react-icon-visit {
+  width: 20px;
+}
+.life-at-company-heading {
+  color: white;
+}
+.life-at-company-para {
+  color: white;
+}
+.life-at-company-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.life-at-company-image {
+  width: 300px;
+  height: 170px;
+}
+.job-failure-bg {
+  background-color: black;
+  height: 100vh;
+
+  color: white;
+  font-family: 'Roboto';
+  font-weight: 100;
+}
+.job-failure-para {
+  color: #b6c5ff;
+}
+.job-failure-button {
+  background-color: #4f46e5;
+  color: white;
+  border-style: none;
+  height: 30px;
+  width: 70px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.failure-width {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  .skills-items {
+    width: 250px;
+  }
+  .life-at-company-image {
+    width: 250px;
+    height: 170px;
+  }
+  .life-at-company-con {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (min-width: 992px) {
+  .skills-items {
+    width: 280px;
+  }
+}
+@media (min-width: 1200px) {
+  .skills-items {
+    width: 330px;
+  }
+}
